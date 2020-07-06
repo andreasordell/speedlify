@@ -36,6 +36,17 @@ module.exports = {
 			"https://gridsome.org/",
 		]
 	},
+	andreas: {
+		name: "andreasbergstrom.se",
+		description: "Personal site", 
+		options: {
+			frequency: 60 * 24, // 24 hours
+			freshChrome: "site"
+		},
+		urls: [
+			"https://www.andreasbergstrom.se/",
+		]
+	},
 	zachleat: {
 		name: "zachleat.com", // optional, falls back to object key
 		description: "Personal web site",
